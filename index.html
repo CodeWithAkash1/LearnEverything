@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>LearnEverything</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">LearnEverything</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Post.html">Post</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Study Material
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="Course">
+                            <li><a class="dropdown-item" href="Engineering.html">Engineering</a></li>
+                            <li><a class="dropdown-item" href="SSC.html">SSC</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Other.html">Other</a></li>
+                        </ul>
+                    </li>
+                    <!--  <li class="nav-item"> 
+                        <a class="nav-link" href="Contact.html">Contact us</a>
+                    </li> -->
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>&nbsp;
+                <a class="btn btn-outline-warning" href="#">Sign in</a>
+                &nbsp;
+                <a class="btn btn-outline-warning" href="#">Sign up</a>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="zj5.jpg" height="500" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>You Can Do Anything</h5>
+                    <span id="win" color="red">"If you have a dream,don't justsit there. Gather courage to believe that
+                        you can succeed and leave no stone unturned to make it a reality"</span>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="zj2.jpg" height="500" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Just Learn</h5>
+                    <span id="win">Build Your Own Network</span>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="zj7.jpg" height="500" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Do Some Fun</h5>
+                    <span id="win">Bring Your Mind in Creative Thing</span>
+                </div>
+            </
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+        <div class="col">
+            <div class="card h-100">
+                <img src="English Grammar.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">English Grammar Notes</h5>
+                    <p class="card-text">This is for who want to learn English Grammar .</p>
+                    <a href="pdf1/English Grammar in Use (5th Edition).pdf" target="_blank"><button type="button"
+                            class="btn btn-outline-warning">Click Here to see the PDF</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="mp.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Microprocessor Notes</h5>
+                    <p class="card-text">This is common for all who are in engineering field and want to read with
+                        Quantum Notes.</p>
+                    <a href="pdf1/MP Quantum.pdf" target="_blank"><button type="button"
+                            class="btn btn-outline-warning">Click Here to see the PDF</button></a>
+                </div>
+            </div>
+        </div>
+        <!--  <div class="col">
+            <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content.</p>
+                </div>
+            </div>-->
+    </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+
+        <p>&copy; All Right Reserved &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <pre>                                                        &nbsp;</pre>
+        <p class="float-end"><a href="#">Back to top</a></p>
+    </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
